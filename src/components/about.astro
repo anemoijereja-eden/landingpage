@@ -1,0 +1,36 @@
+---
+import AboutContent from '../assets/about.md';
+---
+
+<div id="aboutpanel">
+    <AboutContent />
+    <!-- for whatever reason, imported markdown is scoped differently, so we need to do this shit. frustrating!! -->
+    <style>
+        
+        :global(h2) {
+            align="center";
+            color: #80FF80;
+            font-family: sans-serif;
+        }
+    
+        :global(p) {
+            align="center";
+            color: #80FF80;
+            font-family: sans-serif;
+        }
+        
+        :global(li) {
+            align="center";
+            color: #80FF80;
+            font-family: sans-serif;
+        }
+    </style>
+</div>
+
+<style>
+    #aboutpanel {
+        border-radius: 1em;
+        background-color: rgba(49, 49, 49, 0.679);
+        padding:1em;
+    i}
+</style>
