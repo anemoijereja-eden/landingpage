@@ -4,5 +4,8 @@ Feel free to use what you want from here, or open a PR if you notice any minor s
 
 This project is mainly pure html and css written into the Astro framework.
 
+NOTE: This site is still heavily under construction.
+
 ## Developers:
 all standard tools for working with astro framework will work.
+intent is to keep this simple and avoid using anything JS heavy.
