@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  astro-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      HOST: '0.0.0.0'
+      PORT: '4321'
+      # database shit for future expansion, currently DNP
+      #DATABASE_URL: 'postgresql://astro:secret@postgres:5432/astro'
+    ports:
+      - '4321:4321'
+    #depends_on:
+    #  - postgres
+
+  #postgres:
+  #  image: postgres:16-alpine
+  #  environment:
+  #    POSTGRES_DB: astro
+  #    POSTGRES_USER: astro
+  #    POSTGRES_PASSWORD: secret
+  #  volumes:
+  #    - postgres-data:/var/lib/postgresql/data
+  #  ports:
+  #    - '5432:5432'
+
+#volumes:
+#  postgres-data:
