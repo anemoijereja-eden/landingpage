@@ -1,0 +1,21 @@
+.panel {
+    border-radius: 1em;
+    background-color: rgba(49, 49, 49, 0.679);
+    padding:1em;
+}
+
+h2 {
+	margin: 0.25em;
+	font-weight: normal;
+	color: #e2ffe5;
+    font-family: sans-serif;
+	font-size: auto;
+}
+
+p {
+	color: #d8e9ff;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.006em;
+	margin: 0;
+}

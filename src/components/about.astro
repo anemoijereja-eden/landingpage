@@ -1,8 +1,10 @@
 ---
+import { globalRegistry } from 'astro:schema';
 import AboutContent from '../assets/about.md';
+import "../styles/global.css"
 ---
 
-<div id="aboutpanel">
+<div id="aboutpanel" class="panel">
     <AboutContent />
     <!-- for whatever reason, imported markdown is scoped differently, so we need to do this shit. frustrating!! -->
     <style>
@@ -28,9 +30,4 @@ import AboutContent from '../assets/about.md';
 </div>
 
 <style>
-    #aboutpanel {
-        border-radius: 1em;
-        background-color: rgba(49, 49, 49, 0.679);
-        padding:1em;
-    i}
 </style>
