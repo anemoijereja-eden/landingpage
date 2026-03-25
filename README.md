@@ -9,3 +9,4 @@ NOTE: This site is still heavily under construction.
 ## Developers:
 all standard tools for working with astro framework will work.
 intent is to keep this simple and avoid using anything JS heavy.
+vscode support has been left in from the original project, but neovim is the preferred editor.
