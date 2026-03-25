@@ -12,6 +12,7 @@ services:
       #DATABASE_URL: 'postgresql://astro:secret@postgres:5432/astro'
     ports:
       - '4321:4321'
+    restart: unless-stopped
     #depends_on:
     #  - postgres
 
