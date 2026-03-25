@@ -2,6 +2,7 @@
     border-radius: 1em;
     background-color: rgba(49, 49, 49, 0.679);
     padding:1em;
+    margin: 1em;
 }
 
 h2 {
@@ -18,4 +19,45 @@ p {
 	line-height: 24px;
 	letter-spacing: -0.006em;
 	margin: 0;
+}
+
+#links {
+    margin-left: auto;
+    margin-right: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+    display: flex;
+	gap: 1em;
+}
+
+#links a {
+	display: flex;
+	align-items: center;
+	padding: 10px 12px;
+	color: #111827;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+#links a:hover {
+	color: rgb(78, 80, 86);
+}
+
+#links a svg {
+	height: 1em;
+	margin-left: 8px;
+}
+
+#links a.button {
+	color: rgb(165, 255, 166);
+	background: #303030;
+	box-shadow:
+		inset 0 0 0 1px rgba(255, 255, 255, 0.12),
+		inset 0 -2px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+}
+
+#links a.button:hover {
+	color: rgb(230, 230, 230);
+	box-shadow: none;
 }

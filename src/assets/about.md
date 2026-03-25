@@ -10,4 +10,5 @@ Eden's garden uses a tech stack based around
 - Containerization via Docker
 - Reverse proxying via Caddy
 - Observability stack via Grafana
+
 and is powered by Rocky Linux on an OVHCloud VPS in Quebec.
