@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  astro-app:
+  frontend:
     build:
       context: .
       dockerfile: Dockerfile
