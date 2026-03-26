@@ -7,6 +7,7 @@ This project is mainly pure html and css written into the Astro framework.
 NOTE: This site is still heavily under construction.
 
 ## Developers:
+Linting and code formatting via ESLint and Prettier are included in this project and required for any contributions.
 all standard tools for working with astro framework will work.
 intent is to keep this simple and avoid using anything JS heavy.
 vscode support has been left in from the original project, but neovim is the preferred editor.
