@@ -13,9 +13,21 @@ services:
     ports:
       - '4321:4321'
     restart: unless-stopped
-    #depends_on:
-    #  - postgres
-
+# Uncomment this when backend is ready for deployment
+#    depends_on:
+#       - backend
+#
+#  backend:
+#    build:
+#      context: ./backend
+#      dockerfile: Dockerfile
+#    environment:
+#      HOST: '0.0.0.0'
+#      Port: '4322'
+#      DATABASE_URL: 'postgresql://astro:secret@postgres:5432/astro'
+#    depends_on:
+#        - postgres
+      
   #postgres:
   #  image: postgres:16-alpine
   #  environment:

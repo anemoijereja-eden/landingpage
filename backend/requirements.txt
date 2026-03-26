@@ -1,0 +1,2 @@
+fastapi[standard]>=0.135.0,<0.138.0
+pydantic>=2.12.0,<2.15
